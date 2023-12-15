@@ -1,0 +1,178 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" href="index.css"> 
+	<title>Landing Page</title> 
+</head> 
+
+<body> 
+	<nav> 
+		<div class="heading">Kitchen Chicken</div> 
+		<span class="sideMenuButton"
+			onclick="openNavbar()"> 
+			☰ 
+		</span> 
+
+		<div class="navbar"> 
+			<ul> 
+				<li><a href="#Home">Home</a></li> 
+				<li><a href="#My Projects">About</a></li> 
+				<li><a href="#contact">Sign Up</a></li> 
+			</ul> 
+		</div> 
+	</nav> 
+
+	<!-- Side navigation bar for 
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar"> 
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()"> 
+			 
+		</a> 
+		<a href="#">Home</a> 
+		<a href="#">About</a> 
+		<a href="#">Sign Up</a> 
+	</div> 
+
+	<!-- Content -->
+	<div class="line" id="Home"> 
+		<div class="side1"> 
+			<h1>Welcome To <br> Kitchen Chicken<br></h1> 
+			<button> 
+				<a href= "https://www.tripadvisor.in/ShowUserReviews-g34439-d5099868-r661500684-Chicken_Kitchen-Miami_Beach_Florida.html"> 
+					Explore More 
+				</a> 
+			</button> 
+		</div> 
+		<div class="side2"> 
+			<img src= "kitch.png"
+				width="500"> 
+		</div> 
+	</div> 
+
+	<section class="about" id="My Projects"> 
+		<div class="content"> 
+			<div class="title"> 
+				<span>Best Selling Dishes</span> 
+			</div> 
+			<div class="boxes"> 
+				<div class="box"> 
+					<div class="topic"> 
+					<img src="avocado.png" width="150" align="center" style="margin-bottom:10px;">
+						<a href="" target="_blank"> 
+							Avocado On Toast 
+						</a> 
+					</div> 
+					<p> 
+						Creamy avocado on rye toast with pickled radish is what they serve which comes with waffle fries, salad or shoestring fries. Don’t forget to snap a picture!
+					</p> 
+				</div> 
+				<div class="box"> 
+
+					<div class="topic"> 
+					<img src="lob.png" width="150" align="center" style="margin-bottom:10px;" >
+						<a href="" target="_blank"> 
+							Lobster Roll 
+						</a> 
+					</div> 
+					<p> 
+						The lobster roll is particular is not only photogenic but also very popular. We have heard of the lobster roll on sitcoms and movies but this time you can get some yourself at Bastian! 
+					</p> 
+				</div> 
+
+				<div class="box"> 
+					<div class="topic"> 
+					<img src="black.png" width="150" align="center" style="margin-bottom:10px;">
+						<a href="" target="_blank"> 
+							Black Ice Cream 
+						</a> 
+					</div> 
+					<p> 
+						 Black waffle cone filled with swirls of black ice cream is not something you’d see anywhere else. But don’t worry, it’s made from activated charcoal which is edible and of course, with your favourite toppings.
+					</p> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<section class="contact" id="contact"> 
+		<div class="content"> 
+			<div class="title"><span>Sign Up</span></div> 
+			<div class="contactMenu"> 
+				<div class="input1"> 
+					<div class="label1">Your Name</div> 
+					<div class="input2"> 
+						<input type="text"
+							placeholder="Enter your Name here"> 
+					</div> 
+					<div class="label1"> 
+						<label>Your Email</label> 
+					</div> 
+					<div class="input2"> 
+						<input type="text"
+							placeholder="Enter your Email here"> 
+					</div> 
+					<div class="label1"> 
+						<label>Your Password</label> 
+					</div> 
+					<div class="input2"> 
+						<input type="text"
+							placeholder="Enter your Password here"> 
+					</div> 
+					<div class="button"> 
+						<button>Sign Up</button> 
+					</div> 
+				</div> 
+				<div class="input3"> 
+					<div class="rightside1"> 
+						<div class="title1"> 
+							<span> 
+								Contact Us 
+							</span> 
+						</div> 
+						<div class="content1"> 
+							E-903, 9th Floor, Sovereign 
+							Corporate Tower, Sector-136, 
+							Ravet , Pune - 201305 
+						</div> 
+						<div class="title1"> 
+							<span>More Information</span> 
+						</div> 
+						<div class="content1"> 
+							This is a Simple Landing Page 
+							created for the purpose of completing CodSoft Internship Task.
+							Greetings to all the Foodies out there! 
+							We welcome you to the platform where we 
+							consistently strive to offer the best 
+							of food. This platform has been 
+							designed for every foodie wishing to 
+							fulfill his taste, share their 
+							meals. 
+						</div> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+	<!-- Footer section -->
+	<footer> 
+		<div class="footer"> 
+			<span> 
+				Created By 
+				<a href="file:///C:/Users/admin/Documents/Internship/index.html"
+					target="_blank"> 
+					Harshvardhan Patil 
+				</a> 
+			</span> 
+		</div> 
+	</footer> 
+	<script src="index.js"></script> 
+</body> 
+
+</html>
